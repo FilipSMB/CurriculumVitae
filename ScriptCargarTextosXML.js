@@ -19,13 +19,13 @@ window.addEventListener('DOMContentLoaded', function () {
             var xmlDoc = parser.parseFromString(solicitud.responseText, 'text/xml');
 
             // Obtener los elementos de texto del XML
-            var texto1XML = xmlDoc.querySelector('#texto-1');
-            var texto2XML = xmlDoc.querySelector('#texto-2');
-            var texto3XML = xmlDoc.querySelector('#texto-3');
+            var texto1XML = xmlDoc.querySelector('#texto1');
+            var texto2XML = xmlDoc.querySelector('#texto2');
+            var texto3XML = xmlDoc.querySelector('#texto3');
 
-            var titulo1XML = xmlDoc.querySelector('#titulo-1');
-            var titulo2XML = xmlDoc.querySelector('#titulo-2');
-            var titulo3XML = xmlDoc.querySelector('#titulo-3');
+            var titulo1XML = xmlDoc.querySelector('#titulo1');
+            var titulo2XML = xmlDoc.querySelector('#titulo2');
+            var titulo3XML = xmlDoc.querySelector('#titulo3');
 
             // Insertar el contenido de los elementos XML en los elementos HTML
             texto1.textContent = texto1XML.textContent;
