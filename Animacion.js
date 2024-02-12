@@ -47,11 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 div.style.display = 'block';
                 div.style.opacity = '0';
                 div.style.transform = 'translateX(-50px)';
-                div.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-                setTimeout(function () {
-                    div.style.opacity = '1';
-                    div.style.transform = 'translateX(0)';
-                }, 100);
+                div.style.transition = 'opacity 0.5s ease, transform 0.5s ease';                
             }, delay);
             delay += 500; // Ajusta el retraso entre cada div
         });
