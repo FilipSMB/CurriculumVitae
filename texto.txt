@@ -1,3 +1,11 @@
-Mi nombre es Felipe Izquierdo Romero 
+Mi nombre es Felipe Izquierdo Romero <br>
+<br>
+Tengo 25 años, vivo en Fuenlabrada, Madrid<br>
+Soy una persona amable y proactiva. Adoro todo lo relaccionado <br>
+con las nuevas tecnologías y me apasiona la informática <br>
+<br>
+Recientemente termine el curso de DAM y estoy desempleado <br>
+en busqueda activa de un puesto de trabajo acorde a mis conocimientos <br>
+adquiridos estosultimos años.<br>
 
-soy Junior Developer
+

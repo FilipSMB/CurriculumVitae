@@ -1,0 +1,11 @@
+<contenidos>
+	<titulo id="titulo-1">Descripción General</titulo>
+	<texto id="texto-1">
+		Mi nombre es Felipe Izquierdo Romero 			
+		Tengo 25 años, vivo en Fuenlabrada, Madrid
+		Soy una persona amable y proactiva. Adoro todo lo relaccionado 
+		con las nuevas tecnologías y me apasiona la informática 							
+	</texto>
+	<titulo id="titulo-2"></titulo>
+	<texto id="texto-2">Este es el contenido del segundo texto cargado desde XML.</texto>
+</contenidos>
