@@ -35,7 +35,7 @@ window.addEventListener('DOMContentLoaded', function () {
             // Insertar el contenido de los elementos XML en los elementos HTML
             texto1.textContent = texto1XML.textContent;
 
-            texto2.textContent = texto2.textContent.replace("\n", "<br>");
+            texto2XML.textContent = texto2XML.textContent.replace("\n", "<br>");
             texto2.textContent = texto2XML.textContent;
 
             texto3.textContent = texto3XML.textContent;
