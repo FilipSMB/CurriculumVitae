@@ -3,9 +3,21 @@
 	<texto id="texto-1">
 		Mi nombre es Felipe Izquierdo Romero 			
 		Tengo 25 años, vivo en Fuenlabrada, Madrid
-		Soy una persona amable y proactiva. Adoro todo lo relaccionado 
-		con las nuevas tecnologías y me apasiona la informática 							
+		Me considero una peprsona proactiva y amigable. Adoro todo lo relaccionado 
+		con las nuevas tecnologías y me apasiona la informática. 							
 	</texto>
-	<titulo id="titulo-2"></titulo>
-	<texto id="texto-2">Este es el contenido del segundo texto cargado desde XML.</texto>
+	<titulo id="titulo-2">Descripción académica</titulo>
+	<texto id="texto-2">
+		Poseo el grado de DAM "Desarrollo de aplicaciones multiplataforma".
+		Además busco cursos y certificados gratuitos con los que aprender y complementar mi formación
+		poseo un certificado gratis online a través de la página coursera sobre iniciación a python.
+		y estoy realizando una certificación de C# y de JavaScript en "https://www.freecodecamp.org/"
+	</texto>
+	<titulo id="titulo-3">Objetivos</titulo>
+	<texto id="texto-3">
+		Mis objetivos a corto plazo es conseguir un trabajo de desarrollador que a posterior pueda ir 
+		tomando mas responsabilidades y ser una pieza importante en la empresa.
+		A medio plazo publicar el videojuego que desarrollo en mis tiempos libres en Unity.
+		Y más a largo plazo me gustaria aprender ciberseguridad, ensambladores y algo de diseño grafico.
+	</texto>
 </contenidos>
