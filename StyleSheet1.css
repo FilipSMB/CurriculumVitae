@@ -56,7 +56,7 @@ nav ul li a {
     color: #fff; /* Color del texto blanco */
     text-decoration: none; /* Quitar subrayado del enlace */
     text-align:center;
-    padding: 50px;
+    /*padding: 50px;*/
 }
 
 /* Estilos para los enlaces (a) cuando se pasa el cursor sobre ellos */
