@@ -1,8 +1,13 @@
 ﻿// Cargar XML desde archivo externo
 window.addEventListener('DOMContentLoaded', function () {
     // Elementos HTML donde se insertará el texto
-    var texto1 = document.getElementById('texto-1');
-    var texto2 = document.getElementById('texto-2');
+    var texto1 = document.getElementById('texto1');
+    var texto2 = document.getElementById('texto2');
+    var texto3 = document.getElementById('texto3');
+
+    var titulo1 = document.getElementById('titulo1');
+    var titulo2 = document.getElementById('titulo2');
+    var titulo3 = document.getElementById('titulo3');
 
     // Ruta del archivo XML
     var rutaArchivoXML = 'textoXML.xml';
