@@ -31,7 +31,7 @@ nav {
     top: 0; /* Fijar en la parte superior */
     width: 100%; /* Ocupar todo el ancho disponible */
     margin: 0; /* Eliminar márgenes */
-    
+    z-index: 1;
 }
 
 /* Estilos para la lista no ordenada (ul) dentro del menú de navegación */
@@ -72,6 +72,7 @@ nav ul li a:hover {
     border-radius: 10px; /* Borde redondeado */
     padding: 20px; /* Relleno interno */
     margin: 100px auto 20px; /* Margen externo para espaciar los divs, 'auto' centrará los divs horizontalmente */
+    z-index: 0;
 }
 .info-div:first-child {
     margin-top: 240px; /* Margen superior para desplazar el primer div hacia abajo */
