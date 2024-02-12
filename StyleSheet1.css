@@ -56,10 +56,22 @@ nav ul li a {
     color: #fff; /* Color del texto blanco */
     text-decoration: none; /* Quitar subrayado del enlace */
     text-align:center;
-    /*padding: 50px;*/
+    
 }
 
 /* Estilos para los enlaces (a) cuando se pasa el cursor sobre ellos */
 nav ul li a:hover {
     background-color: #333; /* Cambiar el color de fondo al pasar el cursor */
+}
+
+/* Estilos para los divs con información */
+.info-div {
+    background-color: #f0f0f0; /* Color de fondo para los divs */
+    border: 2px solid #000; /* Borde sólido de 2px de color negro */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Relleno interno */
+    margin: 100px auto 20px; /* Margen externo para espaciar los divs, 'auto' centrará los divs horizontalmente */
+}
+.info-div:first-child {
+    margin-top: 240px; /* Margen superior para desplazar el primer div hacia abajo */
 }
