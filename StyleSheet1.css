@@ -63,6 +63,19 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #333; /* Cambiar el color de fondo al pasar el cursor */
 }
+.imagen-perfil{
+    width: 9%; /* Anchura de la imagen como un porcentaje del ancho del contenedor padre */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho especificado */
+    float: right; /* Flotar la imagen a la derecha */
+    margin-right: 0px;
+}
+.iconos {
+    width: 10%; /* Anchura de la imagen como un porcentaje del ancho del contenedor padre */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho especificado */
+    float: right; /* Flotar la imagen a la derecha */
+    margin-right: 0px;
+}
+
 
 /* Estilos para los divs con información */
 .info-div {
@@ -75,7 +88,8 @@ nav ul li a:hover {
     z-index: 0;
 }
 .info-div:first-child {
-    margin-top: 240px; /* Margen superior para desplazar el primer div hacia abajo */
+    margin-top: 240px; /* Margen superior para desplazar el primer div hacia abajo */    
 }
+
 
 
