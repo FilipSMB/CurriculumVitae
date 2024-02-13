@@ -1,0 +1,35 @@
+﻿.info-panel {
+    position: fixed;
+    color: white;
+    display: none;
+    align-items: center;    
+    background-color: #f0f0f0; /* Color de fondo para los divs */
+    border: 2px solid #000; /* Borde sólido de 2px de color negro */
+    border-radius: 10px; /* Borde redondeado */
+    padding-right: 20px; /* Relleno interno */    
+    z-index: 100; /* Asegura que el panel de información esté por encima de las imágenes */
+    width : 95%;
+
+
+}
+
+.info-panel.active {
+    display: flex;
+}
+
+.info-panel-content {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea las imágenes al margen izquierdo */
+    padding: 20px;
+}
+
+.gallery-image {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu necesidad */
+    cursor: pointer;
+    margin-top: 60px; /* Espacio entre las imágenes */
+}
