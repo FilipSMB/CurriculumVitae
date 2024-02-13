@@ -9,7 +9,6 @@ function aparecer(image, index) {
     //infoPanel.style.width = `${image.clientWidth}px`; // Establece el ancho del panel de información como el ancho de la imagen
     infoPanel.style.height = `${image.clientHeight}px`; // Establece la altura del panel de información como la altura de la imagen
     infoPanel.classList.add('active');
-
 }
 
 

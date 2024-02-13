@@ -1,0 +1,40 @@
+﻿.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 9999;
+}
+
+.popup-content {
+    /* Estilos para el contenido del popup */
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.tecnologias {
+    margin-top: 100px;
+    background-color: #f0f0f0; /* Color de fondo para los divs */
+    border: 2px solid #000; /* Borde sólido de 2px de color negro */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Relleno interno */
+    margin: 100px 30px 20px; /* Margen externo para espaciar los divs */
+    z-index: 0;
+    width: 90%;
+    height: 20%;
+    text-align: center; /* Centra el texto y los elementos en línea horizontalmente */
+}
+.popup-trigger {
+    width: 15%;
+    height : 15%;
+
+}
