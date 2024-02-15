@@ -101,6 +101,7 @@ nav ul li a:hover {
     height: 200px;
     font-size: 30px;
     resize:none;
+    box-sizing: border-box;
 }
 .input-correo-button {
     width: 30%;
