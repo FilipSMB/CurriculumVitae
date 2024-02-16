@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function () {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(solicitud.responseText, 'text/xml');
 
-            var texto1XML = xmlDoc.querySelector('contenidos > texto');
+            var etiquetasTexto = xmlDoc.querySelector('contenidos > texto');
 
             etiquetasTexto.forEach(function (etiqueta) {
                 // Obtener el texto de la etiqueta
