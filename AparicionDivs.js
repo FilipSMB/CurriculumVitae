@@ -17,13 +17,16 @@ window.addEventListener('DOMContentLoaded', function () {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(solicitud.responseText, 'text/xml');
 
-            var etiquetasTexto = xmlDoc.querySelector('contenidos > texto');
+            let contenidos = xmlDoc.getElementsByTagName('contenidos')[0];
 
-            etiquetasTexto.forEach(function (etiqueta) {
-                // Obtener el texto de la etiqueta
-                let texto = etiqueta.textContent.trim(); // Trim para eliminar espacios en blanco innecesarios
+            // Obtener todas las etiquetas <texto> dentro de <contenidos>
+            let etiquetasTexto = contenidos.getElementsByTagName('texto');
+
+            // Recorrer cada etiqueta de texto y almacenar su contenido
+            for (let i = 0; i < etiquetasTexto.length; i++) {
+                let texto = etiquetasTexto[i].textContent.trim(); // Trim para eliminar espacios en blanco innecesarios
                 textos.push(texto);
-            });
+            }
         }
     };
 
