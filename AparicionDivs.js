@@ -14,7 +14,9 @@ window.addEventListener('DOMContentLoaded', function () {
     // Cuando se cargue el archivo XML
     solicitud.onload = function () {
         if (solicitud.status === 200) {
-            textos[0] = xmlDoc.querySelector('#texto1');
+            var texto1XML = xmlDoc.querySelector('#texto1');
+
+            textos[0].innerHTML = texto1XML.textContent;
         }
     };
 
