@@ -107,5 +107,9 @@ nav ul li a:hover {
     width: 30%;
     height: 40px;
 }
+.foto {
+   width:40%;    
+   height:auto;
+}
 
 

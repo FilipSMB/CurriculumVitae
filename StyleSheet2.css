@@ -1,33 +1,37 @@
-﻿.info-panel {
-    position: absolute;
-    color: black;
-    display: none;
-    align-items: center;    
+﻿.gallery {
     background-color: #f0f0f0; /* Color de fondo para los divs */
     border: 2px solid #000; /* Borde sólido de 2px de color negro */
     border-radius: 10px; /* Borde redondeado */
-    padding-right: 20px; /* Relleno interno */    
-    z-index: 0; /* Asegura que el panel de información esté por encima de las imágenes */
-    width : 95%;
-}
 
-.info-panel.active {
-    display: flex;    
-}
-
-.info-panel-content {
-    width: 100%;
-}
-
-.gallery {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alinea las imágenes al margen izquierdo */
     padding: 20px;
+    margin: 100px;
 }
 
 .gallery-image {
+
     width: 200px; /* Ajusta el tamaño de las imágenes según tu necesidad */
+    height: 200px;
     cursor: pointer;
     margin-top: 60px; /* Espacio entre las imágenes */
+    
+}
+.desplegar {
+    width:10%;
+    margin-bottom: 19%;
+}
+
+.texto-al-lado {
+    display: inline-block;
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+    
+}
+.info-div-dos {
+    
+    background-color: #f0f0f0; /* Color de fondo para los divs */
+    border: 2px solid #000; /* Borde sólido de 2px de color negro */
+    border-radius: 10px; /* Borde redondeado */       
+    z-index: 0;
 }
