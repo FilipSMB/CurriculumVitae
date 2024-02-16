@@ -17,9 +17,13 @@ window.addEventListener('DOMContentLoaded', function () {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(solicitud.responseText, 'text/xml');
 
-            var texto1XML = xmlDoc.querySelector('#texto1');
+            var texto1XML = xmlDoc.querySelector('contenidos > texto');
 
-            textos[0] = texto1XML.textContent;
+            etiquetasTexto.forEach(function (etiqueta) {
+                // Obtener el texto de la etiqueta
+                let texto = etiqueta.textContent.trim(); // Trim para eliminar espacios en blanco innecesarios
+                textos.push(texto);
+            });
         }
     };
 
@@ -46,7 +50,8 @@ function aparecer(elemento, numero, imgMas) {
 
         // Crear un nuevo elemento de texto
         var textoElemento = document.createElement('p');
-        textoElemento.innerHTML = textos[0];
+
+        textoElemento.innerHTML = textos[numero-1];        
 
         // Insertar el elemento de texto dentro del contenedor
         contenedorTexto.appendChild(textoElemento);
