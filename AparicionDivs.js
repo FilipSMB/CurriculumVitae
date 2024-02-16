@@ -14,6 +14,9 @@ window.addEventListener('DOMContentLoaded', function () {
     // Cuando se cargue el archivo XML
     solicitud.onload = function () {
         if (solicitud.status === 200) {
+            var parser = new DOMParser();
+            var xmlDoc = parser.parseFromString(solicitud.responseText, 'text/xml');
+
             var texto1XML = xmlDoc.querySelector('#texto1');
 
             textos[0] = texto1XML.textContent;
