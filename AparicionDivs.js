@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function () {
     var texto1 = document.getElementById('texto1');
 
     // Ruta del archivo XML
-    var rutaArchivoXML = './ScriptCargarTextosXMLExperiencia.xml';
+    var rutaArchivoXML = './Experiencia.xml';
 
     // Realizar solicitud para cargar el archivo XML
     var solicitud = new XMLHttpRequest();
