@@ -1,0 +1,106 @@
+<contenidos>
+	<texto conocimiento="Csharp">
+		Experiencia: 2 años.&lt;br&gt; 
+		Descripcion: mas de 1 año de experiencia en clase y en proyectos personales con unity 
+		y 3 meses con .NET.
+	</texto>
+	<texto conocimiento="Java">
+		Experiencia: 2 años.&lt;br&gt;
+		Descripcion: 2 años de experiencia en clase y 3 meses en un proyecto personal de la creacón de una TPV.
+	</texto>
+	<texto conocimiento="JavaScript">
+		Experiencia: 6 meses.&lt;br&gt;
+		Descripcion: 3 meses durante las clases de manera autodidacta, 3 meses en las prácticas.
+	</texto>
+	<texto conocimiento="Python">
+		Experiencia: 2 años.&lt;br&gt;
+		Descripcion: 1 año durante las clases, 3 meses durante la creación del proyecto barajando la posibilidad de hacer
+		una API Rest y 6 meses de manera exporadica creando sencillos programas a traves de video tutoriales.
+	</texto>
+	<texto conocimiento="VisualBasic">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: Con .NET durante las prácticas.
+	</texto>
+	<texto conocimiento="HTML">
+		Experiencia: 1 año. &lt;br&gt;
+		Descripcion: Durante las clases, 3 meses durante las prácticas y 1 mes de manera exporadica creando proyectos personales
+		como este y aprendiendo de videos.
+	</texto>
+	<texto conocimiento="Json">
+		Experiencia: 1 año. &lt;br&gt;
+		Descripcion: Durante las clases y configurando archivos de configuración de juegos de desarrolladores externos para 
+		modificar interfaz gráfica.
+	</texto>
+	<texto conocimiento="XML">
+		Experiencia: 1 año. &lt;br&gt;
+		Descripcion: Durante las clases, de manera exporadica en proyectos y en las prácticas.
+	</texto>
+	<texto conocimiento="XSD">
+		Experiencia: 3 meses.&lt;br&gt;
+		Descripcion: Durante las clases.
+	</texto>
+	<texto conocimiento="SQL">
+		Experiencia: 1 año. &lt;br&gt;
+		Descripcion: Durante las clases y 3 meses en las prácticas.
+	</texto>
+	<texto conocimiento="SQL Server">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: 3 meses durante las prácticas.
+	</texto>
+	<texto conocimiento="MySQL">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: Durante las clases.
+	</texto>
+	<texto conocimiento="Angular">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: Durante las prácticas.
+	</texto>
+	<texto conocimiento=".NET">
+		Experiencia: 6 meses. &lt;br&gt;
+		Descripcion: Durante las prácticas y de manera autodidacta viendo videos.
+	</texto>
+	<texto conocimiento="Dev Express">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: Durante las prácticas.
+	</texto>
+	<texto conocimiento="Git">
+		Experiencia: 6 meses. &lt;br&gt;
+		Descripcion: 3 meses durante las prácticas y 3 para gestionar versiones de mis proyectos incluyendo el proyecto de FCT.
+	</texto>
+	<texto conocimiento="AzureDevOps">
+		Experiencia: 3 meses.&lt;br&gt;
+		Descripcion: Durante las prácticas y usado como control de versiones en unity en el proyecto FCT.
+	</texto>
+	<texto conocimiento="VisualStudio">
+		Experiencia: 6 meses. &lt;br&gt;
+		Descripcion: De manera esporadica y las prácticas.
+	</texto>
+	<texto conocimiento="VisualStudioCode">
+		Experiencia: 2 años. &lt;br&gt;
+		Descripcion: durante el curso en ciertas asignaturas.
+	</texto>
+	<texto conocimiento="NetBeans">
+		Experiencia: 1 año.&lt;br&gt;
+		Descripcion: durante el segundo año del curso en ciertas asignaturas.
+	</texto>
+	<texto conocimiento="Eclipse">
+		Experiencia: 1 año.&lt;br&gt;
+		Descripcion: durante el primer año del curso en ciertas asignaturas.
+	</texto>
+	<texto conocimiento="Unity">
+		Experiencia: 2 años. &lt;br&gt;
+		Descripcion: 1 año durante clases más 9 meses de desarrollo de proyectos personales y el proyecto de FCT.
+	</texto>
+	<texto conocimiento="AndroidStudio">
+		Experiencia: 1 año.&lt;br&gt;
+		Descripcion: Durante el segundo año de clase y de manera personal con video tutoriales de proyectos.
+	</texto>
+	<texto conocimiento="XAMPP">
+		Experiencia: 2 años. &lt;br&gt;
+		Descripcion: Durante las clases en diferentes asignaturas.
+	</texto>
+	<texto conocimiento="Processing">
+		Experiencia: 3 meses. &lt;br&gt;
+		Descripcion: Durante el segundo año de clase.
+	</texto>
+</contenidos>
