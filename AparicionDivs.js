@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (solicitud.status === 200) {
             var texto1XML = xmlDoc.querySelector('#texto1');
 
-            textos[0].innerHTML = texto1XML.textContent;
+            textos[0] = texto1XML.textContent;
         }
     };
 
@@ -43,7 +43,7 @@ function aparecer(elemento, numero, imgMas) {
 
         // Crear un nuevo elemento de texto
         var textoElemento = document.createElement('p');
-        textoElemento.textContent = textos[0];
+        textoElemento.innerHTML = textos[0];
 
         // Insertar el elemento de texto dentro del contenedor
         contenedorTexto.appendChild(textoElemento);
