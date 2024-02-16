@@ -1,24 +1,26 @@
 ﻿let titulos = [];
 let textos = [];
-solicitud.onload = function () {
-    if (solicitud.status === 200) {
-        // Convertir la respuesta XML en un objeto Document
-        var xmlDoc = solicitud.responseXML;
+window.addEventListener('DOMContentLoaded', function () {
 
-        // Obtener el elemento <contenidos>
-        var contenidos = xmlDoc.getElementsByTagName('contenidos')[0];
+    var texto1 = document.getElementById('texto1');
 
-        // Obtener el título y el texto del elemento <contenidos>
-        var titulo = contenidos.getElementsByTagName('titulo')[0].textContent;
-        var texto = contenidos.getElementsByTagName('texto')[0].textContent;
+    // Ruta del archivo XML
+    var rutaArchivoXML = './ScriptCargarTextosXMLExperiencia.xml';
 
-        // Asignar el título y el texto a los elementos HTML
-        titulos[0].textContent = titulo;
-        textos[0].textContent = texto;
-    }
-};
+    // Realizar solicitud para cargar el archivo XML
+    var solicitud = new XMLHttpRequest();
+    solicitud.open('GET', rutaArchivoXML);
 
+    // Cuando se cargue el archivo XML
+    solicitud.onload = function () {
+        if (solicitud.status === 200) {
+            textos[0] = xmlDoc.querySelector('#texto1');
+        }
+    };
 
+    // Enviar solicitud
+    solicitud.send();
+});
 
 function aparecer(elemento, numero, imgMas) {
 

@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', function () {
     var titulo3 = document.getElementById('titulo3');
 
     // Ruta del archivo XML
-    var rutaArchivoXML = 'textoXML.xml';
+    var rutaArchivoXML = './textoXML.xml';
 
     // Realizar solicitud para cargar el archivo XML
     var solicitud = new XMLHttpRequest();
