@@ -128,8 +128,6 @@ footer {
     font-size: 20px;
     background-color: var(--color-footer);
     color: #fff;
-    padding: 20px 0;
-    /*position: fixed;*/
     display: none;
     text-align: left;
     bottom: 0;
@@ -139,7 +137,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 20px;
 }
 .contacto {
     margin-left: 20px;
@@ -152,22 +150,21 @@ footer {
 .contacto a:hover {
     color: #74A8C5;
 }
-/*.contacto a:hover {
-    color: #fff;*/
-    /*text-decoration: underline;*/
-/*}*/
+
 
 .desarrollo {
-    text-align: right; /* Alinea el texto a la derecha */
+    text-align: center; /* Alinea el texto a la derecha */
 }
 .desarrollo h5 {
-    margin-inline-end: 7%;
+    margin-inline-start:80%;
     font-size: 20px;
 }
 .desarrollo img {
-    width:8%; 
+    width: 30%;
 }
-
+.desarrollo div {
+    margin-inline-start: 80%;
+}
 .redes-sociales {
     display: flex;
     flex-direction: column; /* Alinea los elementos en una columna */
