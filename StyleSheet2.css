@@ -8,6 +8,7 @@
     align-items: flex-start; /* Alinea las imágenes al margen izquierdo */
     padding: 20px;
     margin: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
 
 .gallery-image {
@@ -29,9 +30,9 @@
     
 }
 .info-div-dos {
-    
     background-color: #f0f0f0; /* Color de fondo para los divs */
     border: 2px solid #000; /* Borde sólido de 2px de color negro */
-    border-radius: 10px; /* Borde redondeado */       
+    border-radius: 10px; /* Borde redondeado */
+    
     z-index: 0;
 }

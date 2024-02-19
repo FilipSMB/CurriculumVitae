@@ -1,8 +1,20 @@
-﻿body {
+﻿:root {
+    --color-primario: #393939; /* Define una variable para el color primario */
+    --color-footer: #393939;
+    --color-primario-hover: #888888;
+}
+
+body {
+    background-image: url('Fondo.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Cubre todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se mueva mientras se desplaza la página */
+
     margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
     padding: 0; /* Eliminar el relleno predeterminado del cuerpo */
     font-size: 30px;
-    font-family:"Arial";
+    font-family: "Arial";
 }
 /* Estilos para pantallas medianas (tablets) */
 @media (max-width: 992px) {
@@ -26,7 +38,7 @@
 }
 /* Estilos para el menú de navegación */
 nav {
-    background-color: #000; /* Color de fondo negro */
+    background-color: var(--color-primario);/* Color de fondo negro */
     position: fixed; /* Fijar el menú en la parte superior */
     top: 0; /* Fijar en la parte superior */
     width: 100%; /* Ocupar todo el ancho disponible */
@@ -60,9 +72,9 @@ nav ul li a {
 }
 
 /* Estilos para los enlaces (a) cuando se pasa el cursor sobre ellos */
-nav ul li a:hover {
-    background-color: #333; /* Cambiar el color de fondo al pasar el cursor */
-}
+    nav ul li a:hover {
+        background-color: var(--color-primario-hover); /* Cambiar el color de fondo al pasar el cursor */
+    }
 .imagen-perfil{
     width: 9%; /* Anchura de la imagen como un porcentaje del ancho del contenedor padre */
     height: auto; /* Permite que la altura se ajuste automáticamente según el ancho especificado */
@@ -85,6 +97,7 @@ nav ul li a:hover {
     border-radius: 10px; /* Borde redondeado */
     padding: 20px; /* Relleno interno */
     margin: 100px auto 20px; /* Margen externo para espaciar los divs, 'auto' centrará los divs horizontalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     z-index: 0;
 }
 .info-div:first-child {
@@ -111,5 +124,58 @@ nav ul li a:hover {
    width:40%;    
    height:auto;
 }
+footer {
+    font-size: 20px;
+    background-color: var(--color-footer);
+    color: #fff;
+    padding: 20px 0;
+    /*position: fixed;*/
+    display: none;
+    text-align: left;
+    bottom: 0;
+    width: 100%;
+}
+.pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.contacto {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.contacto a {
+    color: #97DAFF;
+}
+.contacto a:hover {
+    color: #74A8C5;
+}
+/*.contacto a:hover {
+    color: #fff;*/
+    /*text-decoration: underline;*/
+/*}*/
 
+.desarrollo {
+    text-align: right; /* Alinea el texto a la derecha */
+}
+.desarrollo h5 {
+    margin-inline-end: 7%;
+    font-size: 20px;
+}
+.desarrollo img {
+    width:8%; 
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    
+}
+
+.redes-sociales img {
+    width: 60px;
+    padding-bottom:10px;
+}
 
