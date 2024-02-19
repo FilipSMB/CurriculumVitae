@@ -1,24 +1,24 @@
 <contenidos>
-	
+
 	<texto id="texto1">
 		Inicio: Septiembre 2023 &lt;br&gt;
 		Fin: Diciembre 2023 &lt;br&gt;
 		&lt;br&gt;
-		
-		Descripción: Tras el curso realice las practicas en esta empresa situada en Leganes, Madrid. &lt;br&gt;
-		Las practicas fueron como desarrollador fullstack en diferentes proyectos que tenía esta empresa abiertos.
+
+		Descripción: Tras el curso realice las practicas en esta empresa situada en Leganés, Madrid. &lt;br&gt;
+		Las practicas fueron como desarrollador full stack en diferentes proyectos que tenía esta empresa abiertos.
 		Todos los proyectos eran en .NET con C# o VisualBasic en la parte del servidor y DevExpress con javascript
 		en la parte del cliente &lt;br&gt;
 		El trabajo era en grupos de seis donde nuestra jefa nos coordinaba para realizar tareas que a su vez era coordinada
-		por otro responsable que le proporcionaba las tareas que debia hacer el grupo y la prioridad de cada una.
+		por otro responsable que le proporcionaba las tareas que debía hacer el grupo y la prioridad de cada una.
 	</texto>
 
 	<texto id="texto2">
 		Descripción: Esta empresa no tiene inicio y fin puesto que ha sido intermitente durante algunos veranos
-		en ella que he trabajado haciendo diferentes escursiones de alrrededor de 7 dias mas o menos como monitor de ocio y tiempo libre.&lt;br&gt;
-		Trabajaba en un grupo de tres monitores, los direfentes grupos eramos coordinados por una persona que se encargaba de facilitarnos 
+		en ella que he trabajado haciendo diferentes excursiones de alrededor de 7 días más o menos como monitor de ocio y tiempo libre.&lt;br&gt;
+		Trabajaba en un grupo de tres monitores, los diferentes grupos eramos coordinados por una persona que se encargaba de facilitarnos
 		las actividades y los materiales necesarios, los horarios y cualquier ayuda necesaria.
-		
+
 	</texto>
 
 	<texto id="texto3">
@@ -26,10 +26,10 @@
 		Fin: Diciembre 2019 &lt;br&gt;
 		&lt;br&gt;
 
-		Descripción: En esta asociación con caracter voluntario trabajé durante tres años. Aqui gestionabamos el grupo entre todos/as los integrantes.
+		Descripción: En esta asociación con caracter voluntario trabajé durante tres años. Aquí gestionábamos el grupo entre todos/as los integrantes.
 		Mi puesto principal era el de información a familias nuevas sobre los precios de la inscripción y la gestión del material (almacenamiento y compra).
-		Además nos organizabamos en grupos pequeños de monitores para las diferentes edades, (6 a 8) años y (12 a 14) años fueron los grupos en los que estuve.
-		Cada sabado del horario escolar realizabamos actividades en Fuenlabrada centro cívico el Arroyo. Ademas de diferentes acampadas y convivencias.
+		Además nos organizábamos en grupos pequeños de monitores para las diferentes edades, (6 a 8) años y (12 a 14) años fueron los grupos en los que estuve.
+		Cada sábado del horario escolar realizábamos actividades en Fuenlabrada centro cívico el Arroyo. Además de diferentes acampadas y convivencias.
 	</texto>
 
 	<texto id="texto4">
@@ -39,11 +39,11 @@
 		Inicio: Febrero 2021 &lt;br&gt;
 		Fin: Agosto 2021 &lt;br&gt;
 		&lt;br&gt;
-		
-		Descripción: Estos dos rangos de fechas porque trabaje en dos temporadas diferentes una de ellas estuve en una cinta de selección de endivia
+
+		Descripción: Estos dos rangos de fechas porque trabajé en dos temporadas diferentes una de ellas estuve en una cinta de selección de endivia
 		por su calibre.
 		El otro periodo estuve en labores de campo, preparación del terreno, plantación de fresa y frambuesa, mantenimiento de fresa y frambuesa,
-		montaje y reparación de riego, recogída de fresa y frambuesa.
+		montaje y reparación de riego, recogida de fresa y frambuesa.
 	</texto>
 
 	<texto id="texto5">
@@ -51,8 +51,8 @@
 		Fin: Junio 2019 &lt;br&gt;
 		&lt;br&gt;
 
-		Descripción: Esta empresa de jardineria situada en Leganés es donde realice las prácticas de paisajismo. Misa labores fueron más bien de
-		jardinería como: montar riegos, segar césped, podar arboles y setos.
+		Descripción: Esta empresa de jardinería situada en Leganés es donde realicé las prácticas de paisajismo. Misa labores fueron más bien de
+		jardinería como: montar riegos, segar césped, podar árboles y setos.
 		Trabajaba en diferentes grupos donde me iban enseñando todo lo necesario trucos y consejos sobre el mantenimiento de jardines y la gestión
 		de los mismos.
 	</texto>
@@ -72,8 +72,9 @@
 		Fin: Diciembre 2022 &lt;br&gt;
 		&lt;br&gt;
 
-		Descripción: Repartidor de pizzas a domicilio con ciclomotor en Fuenlabrada en turnos a demanda pero genralmente las cenas siempre y sobretodo
+		Descripción: Repartidor de pizzas a domicilio con ciclomotor en Fuenlabrada en turnos a demanda pero generalmente las cenas siempre y sobretodo
 		los fines de semana.
 	</texto>
 
 </contenidos>
+
