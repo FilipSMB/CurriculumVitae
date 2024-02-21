@@ -24,6 +24,13 @@ var popupTriggers = document.querySelectorAll('.popup-trigger');
 
 var textos = [];//ConocimientosXML.xml
 
+window.addEventListener('load', function () {
+    popupContent.innerHTML = "Haz clic en cada conocimiento para saber mas sobre la experiencia y como ha sido adquirida.<br>" +
+                             "Pulsa en la X para cerrar el popup.";
+    popup.style.display = "block";
+
+});
+
 window.addEventListener('DOMContentLoaded', function () {
 
     // Ruta del archivo XML
